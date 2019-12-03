@@ -41,13 +41,5 @@ Please note that Docker images can contain other software which may be licensed 
 [general]: https://github.com/SAP/devops-docker-images/blob/master/README.md
 [dockerbuild]: https://docs.docker.com/engine/reference/commandline/build/
 [dockerbuildadd]: https://docs.docker.com/engine/reference/builder/#add
-
-
-Please note that Docker images can contain other software which may be licensed under different licenses. This License file is also included in the Docker image. For any usage of built Docker images please make sure to check the licenses of the artifacts contained in the images.
-
-[piper]: https://sap.github.io/jenkins-library/
-[xsclient]: https://developers.sap.com/germany/tutorials/hxe-ua-install-xs-xli-client.html
-[sapone]: https://launchpad.support.sap.com/
-[general]: https://github.com/SAP/devops-docker-images/blob/master/README.md
-[dockerbuild]: https://docs.docker.com/engine/reference/commandline/build/
 [license]: https://github.com/SAP/devops-docker-xsa-cli/blob/master/LICENSE
+
