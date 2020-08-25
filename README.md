@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/devops-docker-xs-cli)](https://api.reuse.software/info/github.com/SAP/devops-docker-xs-cli)
+
 # XS Command-Line Client Dockerfile
 ## Description
 To bring an SAP HANA XS Advanced application to an SAP HANA Server, deploy the application with the XS command-line tool. 
@@ -30,16 +32,9 @@ docker run ppiper/xs-cli xs <command>
 ```
 
 
-# License
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, v. 2 except as noted otherwise in the LICENSE file.
-
-Please note that Docker images can contain other software which may be licensed under different licenses. This License file is also included in the Docker image. For any usage of built Docker images please make sure to check the licenses of the artifacts contained in the images.
-
 [piper]: https://sap.github.io/jenkins-library/
 [xsclient]: https://developers.sap.com/germany/tutorials/hxe-ua-install-xs-xli-client.html
 [sapone]: https://launchpad.support.sap.com/
 [general]: https://github.com/SAP/devops-docker-images/blob/master/README.md
 [dockerbuild]: https://docs.docker.com/engine/reference/commandline/build/
 [dockerbuildadd]: https://docs.docker.com/engine/reference/builder/#add
-[license]: https://github.com/SAP/devops-docker-xsa-cli/blob/master/LICENSE
-
