@@ -3,7 +3,8 @@
 # XS Command-Line Client Dockerfile
 ## Description
 To bring an SAP HANA XS Advanced application to an SAP HANA Server, deploy the application with the XS command-line tool. 
-With this Dockerfile, you can wrap the XS command-line client and run the resulting image with the Jenkins pipeline library of [project "Piper"][piper]. 
+With this Dockerfile, you can wrap the XS command-line client and run the resulting image with the Jenkins pipeline library of [project "Piper"][piper]. For convenience, this image also includes the [MTA Build tool](https://github.com/SAP/cloud-mta-build-tool) to avoid using a different image in a typical integration pipeline.
+
 
 ## Requirements
 * General requirements can be found in the [repository readme][general]
@@ -18,6 +19,7 @@ This image is not provided on hub.docker.com. Instead, [build][dockerbuild] this
 | Argument | Description |
 | ---------| ------------|
 | **XSZIP** | Path to your XS CLI ZIP file |
+| **MBT_VERSION** | Version of the [MTA Build tool](https://github.com/SAP/cloud-mta-build-tool) to use. Default is 1.2.24 |
 
 Example:
 ```
