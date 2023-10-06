@@ -1,5 +1,9 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/devops-docker-xs-cli)](https://api.reuse.software/info/github.com/SAP/devops-docker-xs-cli)
 
+# Important notice
+
+This public repository has reached read only status. Read and clone access will still be possible, but there will be no more fixes or updates on the Dockerfile or any other maintenance activities.
+
 # XS Command-Line Client Dockerfile
 ## Description
 To bring an SAP HANA XS Advanced application to an SAP HANA Server, deploy the application with the XS command-line tool. 
