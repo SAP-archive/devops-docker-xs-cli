@@ -1,4 +1,4 @@
-FROM buildpack-deps:stretch-curl
+FROM buildpack-deps:stable-curl
 
 ARG XSZIP
 ENV VERSION 0.1
